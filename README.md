@@ -128,7 +128,7 @@ You can test the following endpoints from the documentation interface:
 - expires_at: The expiration date and time for the shortened
 
 **Notes:**
-- Make sure to include the original_url and expires_in parameters in the request body.
+- Make sure to include the original_url in the request body.
 - The password is optional but can be used to secure the shortened link.
 
 ### `GET /{short_url}` - Redirect to the original URL using the shortened URL.
@@ -153,7 +153,7 @@ These steps will allow you to test the functionality of your URL shortener and e
 
 #### Example Request:
 ```bash 
- URL: http://127.0.0.1:8000/abc123
+ URL: http://127.0.0.1:8000/analytics/abc123
 ```
 #### Example Response:
 ```json
